@@ -41,9 +41,9 @@ List containers
 
       Name                    Command               State    Ports
 --------------------------------------------------------------------
-redis_master_1     docker-entrypoint.sh redis ...   Up      6379/tcp
-redis_sentinel_1   docker-entrypoint.sh redis ...   Up      6379/tcp
-redis_sentinel_2   docker-entrypoint.sh redis ...   Up      6379/tcp
-redis_sentinel_3   docker-entrypoint.sh redis ...   Up      6379/tcp
-redis_slave_1      docker-entrypoint.sh redis ...   Up      6379/tcp
-redis_slave_2      docker-entrypoint.sh redis ...   Up      6379/tcp
+	redis_master_1     docker-entrypoint.sh redis ...   Up      6379/tcp
+	redis_sentinel_1   docker-entrypoint.sh redis ...   Up      6379/tcp
+	redis_sentinel_2   docker-entrypoint.sh redis ...   Up      6379/tcp
+	redis_sentinel_3   docker-entrypoint.sh redis ...   Up      6379/tcp
+	redis_slave_1      docker-entrypoint.sh redis ...   Up      6379/tcp
+	redis_slave_2      docker-entrypoint.sh redis ...   Up      6379/tcp
