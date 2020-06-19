@@ -1,0 +1,22 @@
+version: '2'
+
+networks:
+  default:
+    external:
+      name: redis_network
+
+services:
+
+  master:
+    build: redismaster
+
+  slave:
+    build: redisslave
+    links:
+      - master:redis-master
+
+  sentinel:
+    build: sentinel
+    links:
+      - master:redis-master
+      - slave
