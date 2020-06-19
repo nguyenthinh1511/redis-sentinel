@@ -32,6 +32,7 @@ Start redis-sentinel using docker-compose
 	docker-compose up --build --scale slave=2 --scale sentinel=3
 
 --scale slave=2: scale 2 instance of redis-slave
+
 --scale sentinel=3: scale 3 instance of redis-sentinel; the number of instance must be greater than quorum value
 
 
