@@ -8,8 +8,8 @@
 
 Build docker image
 
-	dockebuild -t redis_test .
+	docker build -t redis_test .
 
-Run container
+Created and run container
 
-	dockerun -it --network redis_network --rm redis_test
+	docker run -it --network redis_network --rm redis_test
