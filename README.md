@@ -1,9 +1,9 @@
-# redis-sentinel
+# Redis Sentinel
 
 ## **Authors**
 - [thinh.nguyen](mailto:nvthinh1511@gmail.com)
 
-content:
+Content:
 
 - redis: docker file for setup redis-sentinel on docker
 - redis_test: java maven project for testing
