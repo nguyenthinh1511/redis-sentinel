@@ -6,4 +6,5 @@
 content:
 
   redis: docker file for setup redis-sentinel on docker
+  
   redis_test: java maven project for testing
