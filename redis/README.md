@@ -24,8 +24,8 @@ List all network available
 
 	docker network ls
 
-NETWORK ID          NAME                  DRIVER              SCOPE
-e863a5e32a00        redis_network         bridge              local
+	NETWORK ID          NAME                  DRIVER              SCOPE
+	e863a5e32a00        redis_network         bridge              local
 
 Start redis-sentinel using docker-compose
 
