@@ -16,7 +16,7 @@ with a few tests.
 
 ## Usage
 
-Create a network for communicate of all service
+Create a network for communicate of all services
 
 	docker network create redis_network
 
@@ -31,9 +31,9 @@ Start redis-sentinel using docker-compose
 
 	docker-compose up --build --scale slave=2 --scale sentinel=3
 
---scale slave=2: scale 2 instance of redis-slave
+--scale slave=2: scale 2 instances of redis-slave
 
---scale sentinel=3: scale 3 instance of redis-sentinel; the number of instance must be greater than quorum value
+--scale sentinel=3: scale 3 instances of redis-sentinel; the number of instance must be greater than quorum value
 
 
 List containers
